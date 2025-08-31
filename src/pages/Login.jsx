@@ -56,8 +56,8 @@ export const Login = () => {
             <p className="text-sm text-zinc-500">Crea una cuenta llenando este formulario. Si ya tienes una, inicia sesión</p>
           </div>
           <div>
-            <form 
-              onSubmit={handleLogin} 
+            <form
+              onSubmit={handleLogin}
               action="post"
             >
               <div className="space-y-10">
@@ -106,11 +106,18 @@ export const Login = () => {
           </div>
         </div>
         <div>
-          <img
-            className="rounded-r-lg w-full h-full object-cover"
-            src="https://images.unsplash.com/photo-1634630416778-86a63fd8434b?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bGlicmFyeSUyMGRpZ2l0YWx8ZW58MHx8MHx8fDA%3D"
-            alt="background library book"
-          />
+          <div className="relative">
+            <img
+              className="rounded-r-lg w-full h-full object-cover relative"
+              src="https://images.unsplash.com/photo-1634630416778-86a63fd8434b?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bGlicmFyeSUyMGRpZ2l0YWx8ZW58MHx8MHx8fDA%3D"
+              alt="background library book"
+            />
+            <div className="absolute bottom-5 left-5 backdrop-blur-lg shadow-lg right-5 p-4 rounded-2xl">
+              <h3 className="text-lg">
+                "En algún libro hay una frase esperándonos para darle sentido a la existencia"
+              </h3>
+            </div>
+          </div>
         </div>
       </div>
     </section>
