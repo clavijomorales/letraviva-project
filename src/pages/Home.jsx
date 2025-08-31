@@ -27,7 +27,7 @@ export const Home = () => {
         </ul>
       </header>
       <main className="bg-stone-200 h-screen w-full">
-        <div className="flex justify-center h-[60vh]">
+        <div className="flex justify-center h-[80vh]">
           <HeroHome
             title={'Descubre libros locales y conecta con tu comunidad lectora'}
             subtitle={'Explora historias, comparte reseñas y apoya a librerías independientes'}
