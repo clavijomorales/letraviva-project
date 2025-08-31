@@ -1,31 +1,13 @@
 import { Card } from "../components/Card";
 import { CardItem } from "../components/CardItem";
+import Header from "../components/Header";
 import { HeroHome } from "../components/HeroHome";
 import { ROUTES_PROJECT } from "../routes/routes";
 
 export const Home = () => {
   return (
     <>
-      <header className="p-5 fixed bg-zinc-200 z-20 w-full flex items-center justify-between">
-        <div className="flex items-center gap-10">
-          <div className="border-none p-3 text-sm rounded-full border h-8 w-8 flex items-center justify-center bg-blue-500 text-white">
-            LV
-          </div>
-          <div>
-            <ul className="flex items-center gap-5">
-              <li>Inicio</li>
-              <li>Blogs</li>
-              <li>Quiénes somos</li>
-              <li>Únete</li>
-            </ul>
-          </div>
-        </div>
-        <ul>
-          <li>
-            <a className="p-2 bg-black text-white border-none rounded-md" href={ROUTES_PROJECT.login}>Cerrar sesión</a>
-          </li>
-        </ul>
-      </header>
+      <Header />
       <main className="bg-stone-200 h-screen w-full">
         <div className="flex justify-center h-[60vh]">
           <HeroHome
