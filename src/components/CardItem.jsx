@@ -6,7 +6,10 @@ export const CardItem = () => {
         LV
       </div>
       <div>
-        <h1 className='text-sm mb-1'>Usuario</h1>
+        <div className="flex items-center justify-between mb-1">
+          <h1 className='text-sm'>Usuario</h1>
+          <span className="text-xs text-zinc-400 font-normal">Agosto 31</span>
+        </div>
         <p className='text-sm font-normal'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae, ipsam?</p>
       </div>
     </div>
