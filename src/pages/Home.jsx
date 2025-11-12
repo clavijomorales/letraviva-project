@@ -2,7 +2,6 @@ import { Card } from "../components/Card";
 import { CardItem } from "../components/CardItem";
 import Header from "../components/Header";
 import { HeroHome } from "../components/HeroHome";
-import { ROUTES_PROJECT } from "../routes/routes";
 
 export const Home = () => {
   return (
